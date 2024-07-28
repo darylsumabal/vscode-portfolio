@@ -1,0 +1,56 @@
+const ContactForm = () => {
+  return (
+    <div className="flex flex-col w-full gap-8">
+      <h1 className="text-xl font-medium">Or Fill Out This Form</h1>
+
+      <form className="flex flex-col gap-6 ">
+        <div className="flex flex-col lg:flex-row gap-4">
+          <div>
+            <label
+              htmlFor=""
+              className="block  text-sm uppercase mb-2 text-white"
+            >
+              Name
+            </label>
+            <input
+              type="text"
+              className=" p-3 outline-none w-full bg-neutral focus:outline-1 focus:outline-secondary"
+            />
+          </div>
+          <div>
+            <label className="block  uppercase mb-2 text-sm text-white">
+              Email
+            </label>
+            <input
+              type="text"
+              className=" p-3 outline-none w-full focus:outline-1 bg-neutral  focus:outline-secondary"
+            />
+          </div>
+        </div>
+        <div>
+          <label htmlFor="" className="uppercase text-sm text-white">
+            Subject
+          </label>
+          <input
+            type="text"
+            className="w-full p-3 mt-2 outline-none bg-neutral  focus:outline-1 focus:outline-secondary"
+          />
+        </div>
+        <div>
+          <label htmlFor="" className="uppercase  text-sm text-white">
+            Message
+          </label>
+          <textarea
+            className="w-full resize-none mt-2 outline-none bg-neutral  focus:outline-1 focus:outline-secondary p-2"
+            rows={5}
+          ></textarea>
+        </div>
+        <button className="text-left bg-secondary w-[76px] px-3 py-2 uppercase font-semibold text-sm  text-white border-none">
+          Submit
+        </button>
+      </form>
+    </div>
+  );
+};
+
+export default ContactForm;
