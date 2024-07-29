@@ -22,7 +22,7 @@ const SideBar = () => {
               key={items.id}
               className="flex items-center gap-1 hover:text-white"
             >
-              <img src={items.image} alt={items.filename} className="w-5" />
+              <img src={items.image} alt={items.alt} className="w-5" />
               <NavLink
                 to={items.slug}
                 className={({ isActive }) =>

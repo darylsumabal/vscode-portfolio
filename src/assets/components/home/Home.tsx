@@ -35,11 +35,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex items-center md:justify-center  lg:absolute lg:right-1 2xl:top-40 2xl:right-44 z-0 lg:top-72 xl:top-40">
+      <div className="flex items-center md:justify-center  lg:absolute lg:right-1 2xl:top-40 2xl:right-44 z-0 lg:top-72 xl:top-40  ">
         <img
           src="daryl.webp"
           alt="Profile.png"
-          className="h-[300px] w-[350px] 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord object-cover aspect-auto"
+          className="h-[300px] w-[350px] 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord  object-cover"
+          loading="lazy"
         />
       </div>
     </div>

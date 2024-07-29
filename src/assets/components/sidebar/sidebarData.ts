@@ -4,36 +4,42 @@ export const sideBar = [
     title: "home.tsx",
     image: "react_ts.svg",
     slug: "/home",
+    alt: "home",
   },
   {
     id: 2,
     title: "about.html",
     image: "html.svg",
     slug: "/about",
+    alt: "about",
   },
   {
     id: 3,
     title: "contact.css",
     image: "css.svg",
     slug: "/contact",
+    alt: "contact",
   },
   {
     id: 4,
     title: "project.js",
     image: "javascript.svg",
     slug: "/project",
+    alt: "project",
   },
   {
     id: 5,
     title: "articles.json",
     image: "json.svg",
     slug: "/articles",
+    alt: "articles",
   },
   {
     id: 6,
     title: "github.md",
     image: "markdown.svg",
     slug: "/github",
+    alt: "github",
   },
 ];
 
