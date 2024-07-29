@@ -16,11 +16,11 @@ const SideBar = () => {
         <summary className="font-semibold cursor-pointer text-sm  select-none">
           PORTFOLIO
         </summary>
-        <ul className="space-y-2 p-4 dropdown-content">
+        <ul className="space-y-2 p-4 dropdown-content ">
           {data.map((items) => (
             <li
               key={items.id}
-              className="flex items-center gap-1 hover:text-white"
+              className="flex items-center gap-1 hover:text-white "
             >
               <img src={items.image} alt={items.alt} className="w-5" />
               <NavLink

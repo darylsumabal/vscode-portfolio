@@ -42,7 +42,7 @@ const Box = () => {
                     <a
                       href={items.slug}
                       target="_blank"
-                      className="text-sm ease-in-out duration-150 hover:text-primary"
+                      className="text-sm ease-in-out duration-150 border-b-2 border-accent px-1 hover:bg-accent hover:border-none hover:text-white"
                     >
                       Live Demo
                     </a>

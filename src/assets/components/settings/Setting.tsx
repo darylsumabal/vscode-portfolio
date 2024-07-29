@@ -25,7 +25,7 @@ const Setting = () => {
           <div className="flex flex-col">
             <span>{data.name}</span>
             <button
-              className="bg-primary text-white p-1 text-sm font-semibold"
+              className="bg-primary text-white p-1 text-sm font-semibold ease-in-out duration-150 hover:scale-105 hover:bg-accent"
               onClick={() => handleThemeChange(data.theme)}
             >
               Set Color Theme

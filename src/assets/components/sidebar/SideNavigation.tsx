@@ -33,7 +33,7 @@ const SideNavigation: React.FC = () => {
             <NavLink
               to={items.slug}
               className={({ isActive }) =>
-                isActive ? "fill-white" : "fill-[#6A737D]"
+                isActive ? "fill-secondary" : "fill-[#6A737D]"
               }
             >
               <SvgIcon svgString={items.svg} />
