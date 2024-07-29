@@ -22,6 +22,7 @@ const SideNavigation: React.FC = () => {
               }
             >
               <SvgIcon svgString={items.svg} />
+              <span className="sr-only">{items.name}</span>
             </NavLink>
           </div>
         ))}
@@ -36,6 +37,7 @@ const SideNavigation: React.FC = () => {
               }
             >
               <SvgIcon svgString={items.svg} />
+              <span className="sr-only">{items.name}</span>
             </NavLink>
           </div>
         ))}

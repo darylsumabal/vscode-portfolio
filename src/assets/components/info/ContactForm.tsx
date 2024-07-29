@@ -7,40 +7,47 @@ const ContactForm = () => {
         <div className="flex flex-col lg:flex-row gap-4">
           <div>
             <label
-              htmlFor=""
+              htmlFor="name"
               className="block  text-sm uppercase mb-2 text-white"
             >
               Name
             </label>
             <input
+              id="name"
               type="text"
               className=" p-3 outline-none w-full bg-neutral focus:outline-1 focus:outline-secondary"
             />
           </div>
           <div>
-            <label className="block  uppercase mb-2 text-sm text-white">
+            <label
+              htmlFor="email"
+              className="block  uppercase mb-2 text-sm text-white"
+            >
               Email
             </label>
             <input
+              id="email"
               type="text"
               className=" p-3 outline-none w-full focus:outline-1 bg-neutral  focus:outline-secondary"
             />
           </div>
         </div>
         <div>
-          <label htmlFor="" className="uppercase text-sm text-white">
+          <label htmlFor="subject" className="uppercase text-sm text-white">
             Subject
           </label>
           <input
+            id="subject"
             type="text"
             className="w-full p-3 mt-2 outline-none bg-neutral  focus:outline-1 focus:outline-secondary"
           />
         </div>
         <div>
-          <label htmlFor="" className="uppercase  text-sm text-white">
+          <label htmlFor="message" className="uppercase  text-sm text-white">
             Message
           </label>
           <textarea
+            id="message"
             className="w-full resize-none mt-2 outline-none bg-neutral  focus:outline-1 focus:outline-secondary p-2"
             rows={5}
           ></textarea>

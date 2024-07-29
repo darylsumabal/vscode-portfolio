@@ -24,21 +24,20 @@ const Box = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 gap-10  flex-1 ">
         {dataBox.map((items) => (
-          <div
-            key={items.id}
-            className="bg-neutral rounded-3xl flex flex-col"
-          >
+          <div key={items.id} className="bg-neutral rounded-3xl flex flex-col">
             <div className="space-y-4">
               <img
                 src={items.image}
                 className="rounded-t-3xl object-cover w-full  h-44 2xl:h-80"
-                alt=""
+                alt={items.image}
               />
 
               <div className="flex flex-col">
                 <div className="space-y-2 px-4">
                   <h1 className="text-xl">{items.title}</h1>
-                  <article className="text-sm text-white">{items.description}</article>
+                  <article className="text-sm text-white">
+                    {items.description}
+                  </article>
                 </div>
                 <div className="flex flex-wrap gap-4  p-4">
                   {items.stack.map((items) => (

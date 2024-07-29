@@ -6,6 +6,7 @@ type dataItem = {
   slug: string;
   image: string;
   filename: string;
+  alt: string;
 };
 
 const Navbar2 = () => {
@@ -23,7 +24,7 @@ const Navbar2 = () => {
               }
             >
               <div key={item.id} className="flex gap-2 px-6 py-2">
-                <img src={item.image} alt={item.image} className="w-5" />
+                <img src={item.image} alt={item.alt} className="w-5" />
                 {item.filename}
               </div>
             </NavLink>

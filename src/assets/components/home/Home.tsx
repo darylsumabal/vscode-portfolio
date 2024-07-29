@@ -25,10 +25,10 @@ const Home = () => {
             />
           </div>
           <div className="space-x-2 lg:space-x-10 font-sans">
-            <button className="p-3 font-bold  lg:text-2xl bg-secondary text-white ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 ">
+            <button className="p-3 font-medium  lg:text-2xl bg-secondary text-white ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 ">
               View Work
             </button>
-            <button className="border-2 border-secondary p-3 font-medium lg:text-2xl ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45">
+            <button className="border-2 text-white border-secondary p-3 font-medium lg:text-2xl ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45">
               Contact Me
             </button>
           </div>
@@ -37,9 +37,9 @@ const Home = () => {
 
       <div className="flex items-center md:justify-center  lg:absolute lg:right-1 2xl:top-40 2xl:right-44 z-0 lg:top-72 xl:top-40">
         <img
-          src="daryl.png"
+          src="daryl.webp"
           alt="Profile.png"
-          className="h-[300px] w-[350px] 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord object-center"
+          className="h-[300px] w-[350px] 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord object-cover aspect-auto"
         />
       </div>
     </div>

@@ -18,8 +18,8 @@ const Information: React.FC<Prop> = ({ data }) => {
           <span className="text-lg md:text-xl font-medium">{datas.title}</span>
 
           {datas.socials && (
-            <ol className="mx-6 text-xl list-decimal">
-              <div className="flex flex-col gap-2 mx-4">
+            <div className="mx-6 text-xl list-decimal">
+              <ol className="flex flex-col gap-2 mx-4">
                 <li className="contact__list">
                   <span className="text-secondary text-base md:text-xl">
                     .social{" "}
@@ -33,8 +33,8 @@ const Information: React.FC<Prop> = ({ data }) => {
                   </li>
                 ))}
                 <li className="contact__list">&#125;</li>
-              </div>
-            </ol>
+              </ol>
+            </div>
           )}
         </div>
       ))}
