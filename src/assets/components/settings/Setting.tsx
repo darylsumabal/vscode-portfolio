@@ -15,10 +15,13 @@ const Setting = () => {
     setTheme(newTheme);
   };
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 place-content-center place-items-center h-full">
+    <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 place-content-center place-items-center h-full ">
       {settingData.map((data) => (
-        <div key={data.id} className="text-center space-y-4">
-          <img src={data.image} alt="" className="h-32 rounded-full" />
+        <div
+          key={data.id}
+          className="text-center flex flex-col items-center justify-center space-y-4"
+        >
+          <img src={data.image} alt="" className="h-24 sm:h-32 rounded-full" />
           <div className="flex flex-col">
             <span>{data.name}</span>
             <button

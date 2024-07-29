@@ -11,9 +11,9 @@ const Home = () => {
           </div>
           <span>WEBSITES</span>
         </div>
-        <div className="relative lg:left-16 space-y-44 md:space-y-52 lg:space-y-28 z-20">
+        <div className="relative lg:left-16 space-y-24 sm:space-y-44 md:space-y-52 lg:space-y-28 z-20">
           <div className="z-10 flex flex-col gap-4">
-            <span className="text-2xl  md:text-5xl lg:text-7xl tracking-tighter font-bold">
+            <span className="text-2xl md:text-5xl lg:text-7xl tracking-tighter font-bold">
               Daryl R. Sumabal
             </span>
             <TypeAnimation
@@ -39,7 +39,7 @@ const Home = () => {
         <img
           src="daryl.webp"
           alt="Profile.png"
-          className="h-[300px] w-[350px] 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord  object-cover"
+          className="h-[200px] w-[250px] 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord  object-cover"
           loading="lazy"
         />
       </div>

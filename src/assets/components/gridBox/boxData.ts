@@ -10,24 +10,15 @@ export const dataTitle = [
 export const dataBox = [
   {
     id: 1,
-    image: "wolf.svg",
-    title: "sample 1",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    image: "project1.webp",
+    title: "SimpsonsPay",
+    description: "Basic Ecommerce Website UI Design",
+    slug: "https://simpsonspay.vercel.app/home",
     stack: [
       {
         id: uuidv4(),
-        language: "next",
-        color: "#0076fc",
-      },
-      {
-        id: uuidv4(),
-        language: "node",
-        color: "#88d629",
-      },
-      {
-        id: uuidv4(),
-        language: "mongodb",
-        color: "#45a135",
+        language: "react",
+        color: "#63ddff",
       },
       {
         id: uuidv4(),
@@ -36,8 +27,13 @@ export const dataBox = [
       },
       {
         id: uuidv4(),
-        language: "react-qeury",
-        color: "#ff455b",
+        language: "axios",
+        color: "#6130e6",
+      },
+      {
+        id: uuidv4(),
+        language: "redux-toolkit",
+        color: "#7c4ec7",
       },
     ],
   },
@@ -49,18 +45,8 @@ export const dataBox = [
     stack: [
       {
         id: uuidv4(),
-        language: "next",
-        color: "#0076fc",
-      },
-      {
-        id: uuidv4(),
-        language: "node",
-        color: "#88d629",
-      },
-      {
-        id: uuidv4(),
-        language: "mongodb",
-        color: "#45a135",
+        language: "react",
+        color: "#63ddff",
       },
       {
         id: uuidv4(),
@@ -69,8 +55,13 @@ export const dataBox = [
       },
       {
         id: uuidv4(),
-        language: "react-qeury",
-        color: "#ff455b",
+        language: "axios",
+        color: "#6130e6",
+      },
+      {
+        id: uuidv4(),
+        language: "redux-toolkit",
+        color: "#7c4ec7",
       },
     ],
   },
@@ -82,18 +73,8 @@ export const dataBox = [
     stack: [
       {
         id: uuidv4(),
-        language: "next",
-        color: "#0076fc",
-      },
-      {
-        id: uuidv4(),
-        language: "node",
-        color: "#88d629",
-      },
-      {
-        id: uuidv4(),
-        language: "mongodb",
-        color: "#45a135",
+        language: "react",
+        color: "#63ddff",
       },
       {
         id: uuidv4(),
@@ -102,8 +83,13 @@ export const dataBox = [
       },
       {
         id: uuidv4(),
-        language: "react-qeury",
-        color: "#ff455b",
+        language: "axios",
+        color: "#6130e6",
+      },
+      {
+        id: uuidv4(),
+        language: "redux-toolkit",
+        color: "#7c4ec7",
       },
     ],
   },
@@ -115,18 +101,8 @@ export const dataBox = [
     stack: [
       {
         id: uuidv4(),
-        language: "next",
-        color: "#0076fc",
-      },
-      {
-        id: uuidv4(),
-        language: "node",
-        color: "#88d629",
-      },
-      {
-        id: uuidv4(),
-        language: "mongodb",
-        color: "#45a135",
+        language: "react",
+        color: "#63ddff",
       },
       {
         id: uuidv4(),
@@ -135,8 +111,13 @@ export const dataBox = [
       },
       {
         id: uuidv4(),
-        language: "react-qeury",
-        color: "#ff455b",
+        language: "axios",
+        color: "#6130e6",
+      },
+      {
+        id: uuidv4(),
+        language: "redux-toolkit",
+        color: "#7c4ec7",
       },
     ],
   },

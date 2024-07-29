@@ -22,7 +22,7 @@ const Box = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 gap-10  flex-1 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-10  flex-1 ">
         {dataBox.map((items) => (
           <div key={items.id} className="bg-neutral rounded-3xl flex flex-col">
             <div className="space-y-4">
@@ -35,13 +35,23 @@ const Box = () => {
               <div className="flex flex-col">
                 <div className="space-y-2 px-4">
                   <h1 className="text-xl">{items.title}</h1>
-                  <article className="text-sm text-white">
+                  <article className="text-sm text-accent">
                     {items.description}
                   </article>
+                  <div>
+                    <a
+                      href={items.slug}
+                      target="_blank"
+                      className="text-sm ease-in-out duration-150 hover:text-primary"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
                 </div>
-                <div className="flex flex-wrap gap-4  p-4">
+
+                <div className="flex  flex-wrap gap-4  p-4">
                   {items.stack.map((items) => (
-                    <div
+                    <button
                       key={items.id}
                       className="rounded-full text-white text-xs px-2 py-1 border-2 cursor-pointer"
                       style={{
@@ -55,7 +65,7 @@ const Box = () => {
                       onMouseLeave={handleMouseLeave}
                     >
                       {items.language}
-                    </div>
+                    </button>
                   ))}
                 </div>
               </div>

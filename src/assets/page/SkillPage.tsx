@@ -2,7 +2,7 @@ import SkillOffered from "../components/skill/SkillOffered";
 
 const SkillPage = () => {
   return (
-    <div className="w-full">
+    <div className="w-full py-4">
       <SkillOffered />
     </div>
   );

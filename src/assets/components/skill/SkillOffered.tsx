@@ -2,8 +2,8 @@ import { skill } from "./skillData";
 
 const SkillOffered = () => {
   return (
-    <div className="space-y-10 ">
-      <h1 className="text-xl md:text-2xl font-bold">Skills Offered</h1>
+    <div className="space-y-10">
+      <h1 className="text-xl font-bold">Skills Offered</h1>
       <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-14 2xl:grid-cols-7 ">
         {skill.map((skills) => (
           <div
@@ -16,7 +16,7 @@ const SkillOffered = () => {
                 alt={skills.name}
                 className="w-20 md:w-32"
               />
-              <span className="font-semibold text-sm md:text-base">
+              <span className="font-semibold text-sm md:text-base text-accent">
                 {skills.name}
               </span>
             </div>
