@@ -39,7 +39,7 @@ const Home = () => {
         <img
           src="daryl.webp"
           alt="Profile.png"
-          className="h-[200px] w-[250px] 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord  object-cover"
+          className="h-[200px] w-[250px] md:h-72 md:w-80 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord  object-cover"
           loading="lazy"
         />
       </div>
