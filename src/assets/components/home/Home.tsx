@@ -3,8 +3,8 @@ import { TypeAnimation } from "react-type-animation";
 const Home = () => {
   return (
     <div className="flex flex-col-reverse justify-center  lg:flex-row  w-full gap-10 lg:gap-0">
-      <div className="flex flex-col justify-center w-full relative overflow-hidden ">
-        <div className="absolute text-5xl md:text-9xl lg:text-[12rem] xl:text-[14rem] 2xl:text-[16rem] text-gray-600 opacity-20 tracking-tighter  leading-tight z-0 flex flex-col font-black">
+      <div className="flex flex-col justify-center items-center lg:items-start w-full relative overflow-hidden ">
+        <div className="absolute text-5xl md:text-9xl lg:text-[12rem] xl:text-[14rem] 2xl:text-[16rem] text-gray-600 opacity-20 tracking-tighter  leading-tight z-10 flex flex-col font-black">
           <div className="flex gap-14">
             <span>I</span>
             <span>BUILD</span>
@@ -35,11 +35,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex items-center md:justify-center  lg:absolute lg:right-1 2xl:top-40 2xl:right-44 z-0 lg:top-72 xl:top-40  ">
+      <div className="flex items-center  justify-center  lg:absolute lg:right-1 2xl:top-40 2xl:right-44 z-0 lg:top-72 xl:top-40">
         <img
           src="daryl.webp"
           alt="Profile.png"
-          className="h-[200px] w-[250px] md:h-72 md:w-80 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary bord  object-cover"
+          className="h-[200px] w-[250px] md:h-72 md:w-80 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary  bord  object-cover"
           loading="lazy"
         />
       </div>
