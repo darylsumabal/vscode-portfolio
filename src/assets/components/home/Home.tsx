@@ -24,8 +24,8 @@ const Home = () => {
               repeat={Infinity}
             />
           </div>
-          <div className="space-x-2 lg:space-x-10 font-sans">
-            <button className="p-3 font-medium  lg:text-2xl bg-secondary text-white ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105">
+          <div className="space-x-2 lg:space-x-10 font-sans text-sm md:text-base">
+            <button className="p-3  font-medium lg:text-2xl bg-secondary text-white ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105">
               View Work
             </button>
             <button className="border-2 text-white border-secondary p-3 font-medium lg:text-2xl ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105">
