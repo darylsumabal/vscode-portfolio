@@ -2,7 +2,7 @@ import Box from "../components/gridBox/Box";
 
 const ProjectPage = () => {
   return (
-    <div className="h-full">
+    <div className="h-full ">
       <Box />
     </div>
   );

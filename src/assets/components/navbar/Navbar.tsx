@@ -13,7 +13,7 @@ const Navbar = () => {
           <li>Help</li>
         </ul>
       </div>
-      <div>Daryl Sumabal-Visual Studio Code</div>
+      <div>Daryl Sumabal - Visual Studio Code</div>
       <div>
         <div className="flex gap-2">
           <div className="rounded-full bg-[#f1fa8c] p-[7px] cursor-pointer" />

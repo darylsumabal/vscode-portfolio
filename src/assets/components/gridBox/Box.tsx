@@ -13,7 +13,7 @@ const Box = () => {
   };
 
   return (
-    <div className="flex flex-col  gap-4 ">
+    <div className="flex flex-col pb-4  gap-4">
       <div className="mt-4">
         {dataTitle.map((title) => (
           <span key={title.id} className="text-xl font-bold">
@@ -49,7 +49,7 @@ const Box = () => {
                   </div>
                 </div>
 
-                <div className="flex  flex-wrap gap-4  p-4">
+                <div className="flex flex-wrap gap-4  p-4">
                   {items.stack.map((items) => (
                     <button
                       key={items.id}
