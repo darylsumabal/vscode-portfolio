@@ -36,16 +36,21 @@ export const skill = [
   },
   {
     id: 8,
+    name: "TANSTACK QUERY",
+    image: "tanstack.png",
+  },
+  {
+    id: 9,
     name: "LARAVEL",
     image: "laravel.svg",
   },
   {
-    id: 9,
+    id: 10,
     name: "MYSQL",
     image: "mysql.svg",
   },
   {
-    id: 10,
+    id: 11,
     name: "GITHUB",
     image: "github.svg",
   },

@@ -18,12 +18,10 @@ const Information: React.FC<Prop> = ({ data }) => {
           <span className="text-lg md:text-xl font-medium">{datas.title}</span>
 
           {datas.socials && (
-            <div className="mx-6 text-xl list-decimal">
-              <ol className="flex flex-col gap-2 mx-4">
-                <li className="contact__list">
-                  <span className="text-secondary text-base md:text-xl">
-                    .social{" "}
-                  </span>
+            <div className="mx-6  list-decimal text-base md:text-xl">
+              <ol className="flex flex-col gap-2 mx-4 ">
+                <li className="contact__list ">
+                  <span className="text-secondary ">.social </span>
                   &#123;
                 </li>
                 {Object.entries(datas.socials).map(([key, value]) => (

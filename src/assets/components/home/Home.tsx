@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
@@ -25,12 +26,15 @@ const Home = () => {
             />
           </div>
           <div className="space-x-2 lg:space-x-10 font-sans text-sm md:text-base">
-            <button className="p-3  font-medium lg:text-2xl bg-secondary text-white ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105">
-              View Work
+            <button className="p-3 font-medium lg:text-2xl bg-secondary text-white ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105">
+              <Link to={"/project"}>View Work</Link>
             </button>
-            <button className="border-2 text-white border-secondary p-3 font-medium lg:text-2xl ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105">
+            <a
+              href="https://github.com/darylsumabal" target="_blank"
+              className="border-2 text-white border-secondary p-2.5 font-medium lg:text-2xl ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105"
+            >
               Contact Me
-            </button>
+            </a>
           </div>
         </div>
       </div>
