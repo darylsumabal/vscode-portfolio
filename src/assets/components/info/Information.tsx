@@ -25,9 +25,15 @@ const Information: React.FC<Prop> = ({ data }) => {
                   &#123;
                 </li>
                 {Object.entries(datas.socials).map(([key, value]) => (
-                  <li key={key} className="contact__list  text-base md:text-xl">
-                    <span className="text-white c ">{key}:</span>
-                    <span className="text-secondary">{value}</span>
+                  <li key={key} className="contact__list text-base md:text-xl">
+                    <span className="text-white c">{key}:</span>
+                    <a
+                      href={value}
+                      target="_blank"
+                      className="text-secondary hover:underline"
+                    >
+                      Reach Out
+                    </a>
                   </li>
                 ))}
                 <li className="contact__list">&#125;</li>
