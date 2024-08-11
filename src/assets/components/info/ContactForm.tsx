@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const ContactForm = () => {
   return (
     <div className="flex flex-col w-full gap-8">
       <h1 className="text-xl font-medium">Or Fill Out This Form</h1>
 
-      <form className="flex flex-col gap-6 ">
+      <form className="flex flex-col gap-6">
         <div className="flex flex-col lg:flex-row gap-4">
           <div>
             <label
@@ -52,9 +54,9 @@ const ContactForm = () => {
             rows={5}
           ></textarea>
         </div>
-        <button className="text-left bg-secondary w-[76px] px-3 py-2 uppercase font-semibold text-sm  text-white border-none">
-          Submit
-        </button>
+        <div className="text-left bg-secondary w-[76px] px-3 py-2 uppercase font-semibold text-sm  text-white border-none">
+          <Link to={"/email"}>Submit</Link>
+        </div>
       </form>
     </div>
   );
