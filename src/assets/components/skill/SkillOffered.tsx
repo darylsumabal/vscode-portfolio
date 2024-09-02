@@ -11,18 +11,11 @@ const SkillOffered = () => {
             key={skills.id}
             className="p-2 bg-neutral  shadow-lg rounded-md shadow-primary w-24 md:w-40 xl:w-52 2xl:w-56 ease-in-out duration-150 hover:shadow-accent hover:scale-105"
           >
-            <div className="flex flex-col items-center justify-center gap-4 ">
-              {/* <img
-                src={skills.image}
-                alt={skills.name}
-                className="w-20 md:w-32"
-              /> */}
+            <div className="flex flex-col items-center justify-center gap-4 ">       
               <Image
                 loading="lazy"
                 path={`portfolio/${skills.image}`}
                 alt={skills.image}
-                width={96}
-                height={96}
                 lqip={{ active: true, quality: 10 }}
                 className="w-20 md:w-32"
               />
