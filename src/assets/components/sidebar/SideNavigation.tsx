@@ -11,7 +11,7 @@ const SvgIcon = ({ svgString }: SvgIcons) => {
 };
 const SideNavigation: React.FC = () => {
   return (
-    <div className="flex  flex-col justify-between items-center p-3 h-full">
+    <aside className="flex  flex-col justify-between items-center p-3 h-full">
       <div className="space-y-6">
         {sideBarNav.slice(0, 5).map((items) => (
           <div key={items.id}>
@@ -42,7 +42,7 @@ const SideNavigation: React.FC = () => {
           </div>
         ))}
       </div>
-    </div>
+    </aside>
   );
 };
 

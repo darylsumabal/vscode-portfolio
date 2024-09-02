@@ -11,7 +11,7 @@ type dataItem = {
 
 const Navbar2 = () => {
   return (
-    <div className="flex items-center gap-2 text-[0.9rem]">
+    <nav className="flex items-center gap-2 text-[0.9rem]">
       <div className="carousel">
         {data.map((item: dataItem) => (
           <div className="carousel-item" key={item.id}>
@@ -31,7 +31,7 @@ const Navbar2 = () => {
           </div>
         ))}
       </div>
-    </div>
+    </nav>
   );
 };
 

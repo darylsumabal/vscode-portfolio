@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex justify-between gap-2 items-center  px-4 py-[1px]">
+    <footer className="flex justify-between gap-2 items-center  px-4 py-[1px]">
       <div className="flex items-center gap-1 md:gap-2">
         <div>
           <svg
@@ -74,7 +74,7 @@ const Footer = () => {
           <p>Prettier</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

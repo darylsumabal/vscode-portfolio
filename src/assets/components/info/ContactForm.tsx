@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col w-full gap-8">
+    <section className="flex flex-col w-full gap-8">
       <h1 className="text-xl font-medium">Or Fill Out This Form</h1>
 
       <form className="flex flex-col gap-6">
@@ -58,7 +58,7 @@ const ContactForm = () => {
           <Link to={"/email"}>Submit</Link>
         </div>
       </form>
-    </div>
+    </section>
   );
 };
 

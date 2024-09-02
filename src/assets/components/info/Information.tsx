@@ -12,7 +12,7 @@ type Prop = {
 
 const Information: React.FC<Prop> = ({ data }) => {
   return (
-    <div>
+    <section>
       {data.map((datas: infoData) => (
         <div key={datas.id} className="flex flex-col gap-4">
           <span className="text-lg md:text-xl font-medium">{datas.title}</span>
@@ -42,7 +42,7 @@ const Information: React.FC<Prop> = ({ data }) => {
           )}
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

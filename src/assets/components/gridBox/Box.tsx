@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { dataBox, dataTitle } from "./boxData";
+import Image from "../image/Image";
 
 const Box = () => {
   const [hover, setHover] = useState<string | null>(null);
@@ -13,7 +14,7 @@ const Box = () => {
   };
 
   return (
-    <div className="flex flex-col pb-4  gap-4">
+    <section className="flex flex-col pb-4  gap-4">
       <div className="mt-4">
         {dataTitle.map((title) => (
           <span key={title.id} className="text-xl font-bold">
@@ -26,10 +27,12 @@ const Box = () => {
         {dataBox.map((items) => (
           <div key={items.id} className="bg-neutral rounded-3xl flex flex-col">
             <div className="space-y-4">
-              <img
-                src={items.image}
-                className="rounded-t-3xl object-cover w-full  h-44 2xl:h-80"
+              <Image
+                loading="lazy"
+                path={`portfolio/${items.image}`}
                 alt={items.image}
+                className="rounded-t-3xl object-cover w-full  h-44 2xl:h-80"
+                lqip={{ active: true, quality: 10 }}
               />
 
               <div className="flex flex-col">
@@ -73,7 +76,7 @@ const Box = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

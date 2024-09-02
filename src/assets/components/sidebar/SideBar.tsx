@@ -3,7 +3,7 @@ import { data } from "../navbar/navbarData";
 
 const SideBar = () => {
   return (
-    <div className="lg:flex flex-col gap-10 p-2 bg-base-200 h-full  w-48 hidden">
+    <aside className="lg:flex flex-col gap-10 p-2 bg-base-200 h-full  w-48 hidden">
       <div className="flex justify-between items-center mx-5">
         <h1 className="text-gray-400 text-sm">EXPLORER</h1>
         <span className="flex gap-[2px]">
@@ -35,7 +35,7 @@ const SideBar = () => {
           ))}
         </ul>
       </details>
-    </div>
+    </aside>
   );
 };
 

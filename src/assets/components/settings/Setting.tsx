@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { settingData } from "./settingData";
+import Image from "../image/Image";
 
 const Setting = () => {
   const [theme, setTheme] = useState<string>(
@@ -15,13 +16,21 @@ const Setting = () => {
     setTheme(newTheme);
   };
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 place-content-center place-items-center h-full ">
+    <section className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 place-content-center place-items-center h-full ">
       {settingData.map((data) => (
         <div
           key={data.id}
           className="text-center flex flex-col items-center justify-center space-y-4"
         >
-          <img src={data.image} alt="" className="h-24 sm:h-32 rounded-full" />
+         
+          <Image
+            loading="lazy"
+            path={`portfolio/${data.image}`}
+            alt={data.image}
+            width={96}
+            height={96}
+            lqip={{ active: true, quality: 10 }}
+          />
           <div className="flex flex-col">
             <span>{data.name}</span>
             <button
@@ -33,7 +42,7 @@ const Setting = () => {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 
