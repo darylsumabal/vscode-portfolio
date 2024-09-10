@@ -16,41 +16,46 @@ export const skill = [
   },
   {
     id: 4,
+    name: "TAILWINDCSS",
+    image: "tailwindcss.svg",
+  },
+  {
+    id: 5,
     name: "JAVASCRIPT",
     image: "javascript.svg",
   },
   {
-    id: 5,
+    id: 6,
     name: "TYPESCRIPT",
     image: "typescript.svg",
   },
   {
-    id: 6,
+    id: 7,
     name: "REACT",
     image: "react_ts.svg",
   },
   {
-    id: 7,
+    id: 8,
     name: "REDUX TOOLKIT",
     image: "redux.svg",
   },
   {
-    id: 8,
+    id: 9,
     name: "TANSTACK QUERY",
     image: "tanstack.png",
   },
   {
-    id: 9,
+    id: 10,
     name: "LARAVEL",
     image: "laravel.svg",
   },
   {
-    id: 10,
+    id: 12,
     name: "MYSQL",
     image: "mysql.svg",
   },
   {
-    id: 11,
+    id: 12,
     name: "GITHUB",
     image: "github.svg",
   },
