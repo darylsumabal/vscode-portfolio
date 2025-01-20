@@ -55,7 +55,7 @@ export const skill = [
     image: "mysql.svg",
   },
   {
-    id: 12,
+    id: 13,
     name: "GITHUB",
     image: "github.svg",
   },

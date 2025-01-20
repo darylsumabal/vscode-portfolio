@@ -4,7 +4,7 @@ export const contactData = [
     title: "Reach Out Via Socials",
     name: "social",
     socials: {
-      facebook: "https://web.facebook.com/daryl.sumabal.3",
+      facebook: "https://web.facebook.com/LEGENDARYL.SUMABAL",
       gmail: "darylsumabal123@gmail.com",
       github: "https://github.com/darylsumabal",
       linkedin: "https://www.linkedin.com/in/daryl-sumabal-11b5b6265/",

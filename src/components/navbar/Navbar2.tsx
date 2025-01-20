@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { data } from "./navbarData";
+import { data } from "../../constant/navbarData";
 
 type dataItem = {
   id: number;

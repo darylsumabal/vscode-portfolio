@@ -1,4 +1,4 @@
-import { aboutData } from "../components/info/data";
+import { aboutData } from "../constant/data";
 import Information from "../components/info/Information";
 
 const AboutPage = () => {

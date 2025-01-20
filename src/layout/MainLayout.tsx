@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
+
+import { useEffect, useState } from "react";
 import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
 import SideBarPage from "../page/SideBarPage";
 import Navbar2 from "../components/navbar/Navbar2";
-import { useEffect, useState } from "react";
+import Footer from "../components/footer/Footer";
 
 const MainLayout = () => {
   const [theme] = useState<string>(
