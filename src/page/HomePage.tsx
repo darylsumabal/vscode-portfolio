@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
-import Image from "../components/image/Image";
 
 const HomePages = () => {
   return (
@@ -36,18 +35,6 @@ const HomePages = () => {
               </button>
             </div>
           </div>
-        </div>
-
-        <div className="flex items-center  justify-center  lg:absolute lg:right-1 2xl:top-40 2xl:right-44 z-0 lg:top-72 xl:top-40">
-          <Image
-            loading="lazy"
-            path="portfolio/daryl.webp"
-            alt="Profile.png"
-            width={96}
-            height={96}
-            lqip={{ active: true, quality: 10 }}
-            className="h-[200px] w-[250px] md:h-72 md:w-80 2xl:h-[500px] 2xl:w-[700px] shadow-lg  shadow-secondary  bord  object-cover"
-          />
         </div>
       </section>
     </div>
