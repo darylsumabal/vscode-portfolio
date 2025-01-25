@@ -31,7 +31,7 @@ export const settingData = [
   },
   {
     id: 6,
-    name: "Hollween Dark",
+    name: "Halloween Dark",
     image: "halloween.webp",
     theme: "halloween",
   },

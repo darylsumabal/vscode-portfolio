@@ -46,7 +46,7 @@ export const skill = [
   },
   {
     id: 10,
-    name: "LARAVEL",
+    name: "LARAVEL API",
     image: "laravel.svg",
   },
   {
