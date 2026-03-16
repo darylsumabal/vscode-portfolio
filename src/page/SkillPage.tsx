@@ -1,5 +1,5 @@
-import Image from "../components/image/Image";
-import { skill } from "../constant/skillData";
+import Image from '../components/image/Image'
+import { skill } from '../constant/skillData'
 
 const SkillPage = () => {
   return (
@@ -20,16 +20,31 @@ const SkillPage = () => {
                   lqip={{ active: true, quality: 10 }}
                   className="w-20 md:w-32  h-20 md:h-32"
                 />
-                <span className="font-semibold text-sm md:text-base text-accent">
-                  {skills.name}
-                </span>
+                <div className="flex flex-col items-center w-full">
+                  <span className="font-semibold text-sm md:text-base text-accent">
+                    {skills.name}
+                  </span>
+                  <div className="relative w-full h-5 bg-gray-200 rounded-full overflow-hidden">
+                    {/* The Progress Bar */}
+                    <progress
+                      value={skills.percentage}
+                      max={100}
+                      className="absolute top-0 left-0 w-full h-full appearance-none [&::-webkit-progress-bar]:bg-transparent [&::-webkit-progress-value]:bg-accent"
+                    />
+
+                    {/* The Label - Centered over the bar */}
+                    <span className="absolute inset-0 flex items-center justify-center text-xs font-bold text-white mix-blend-difference">
+                      {skills.percentage}%
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           ))}
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default SkillPage;
+export default SkillPage
