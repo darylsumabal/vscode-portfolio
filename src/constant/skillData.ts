@@ -36,6 +36,12 @@ export const skill = [
     percentage: 90,
   },
   {
+   id:223, 
+    name: 'INERTIA', 
+    image: 'inertiajs.png', 
+    percentage: 80
+  }, 
+  {
     id: 7,
     name: 'REACT',
     image: 'react_ts.svg',
