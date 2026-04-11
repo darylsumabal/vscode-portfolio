@@ -102,4 +102,10 @@ export const skill = [
     image: 'ubuntu-linux.svg',
     percentage: 60,
   },
+ {
+    id: 154,
+    name: 'DOCKER',
+    image: 'docker-engine.svg',
+    percentage: 60,
+  },
 ]
