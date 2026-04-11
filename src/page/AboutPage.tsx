@@ -22,6 +22,7 @@ const AboutPage = () => {
           </div>
 </div>        
 
+</div>
       <div className="flex items-center justify-center w-full">
         <Image
           loading="lazy"
