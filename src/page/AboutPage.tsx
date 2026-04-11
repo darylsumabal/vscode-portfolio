@@ -21,21 +21,6 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div>
-          <h2 className="text-2xl font-semibold">Quotes:</h2>
-          <p className="leading-7">
-            Control your mind and you will control your destiny.
-          </p>
-          <p>
-            You don't need to become the best of the best you only need is to be
-            part of it.
-          </p>
-          <p className="leading-7">
-            You must neglect for who you are today to become the best version of
-            yourserlf for who you want to become for tommorrow.
-          </p>
-        </div>
-      </div>
 
       <div className="flex items-center justify-center w-full">
         <Image
