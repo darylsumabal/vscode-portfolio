@@ -23,7 +23,7 @@ export const data = [
   {
     id: 4,
     slug: "/project",
-    image: "javascript.svg",
+    image: "typescript.svg",
     filename: "project.ts",
     alt: "project",
   },
