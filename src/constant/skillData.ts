@@ -90,22 +90,5 @@ export const skill = [
     image: 'github.svg',
     percentage: 80,
   },
-  {
-    id: 14,
-    name: 'PROXMOX',
-    image: 'proxmox.svg',
-    percentage: 60,
-  },
-  {
-    id: 15,
-    name: 'UBUNTU',
-    image: 'ubuntu-linux.svg',
-    percentage: 60,
-  },
- {
-    id: 154,
-    name: 'DOCKER',
-    image: 'docker-engine.svg',
-    percentage: 60,
-  },
+  
 ]
