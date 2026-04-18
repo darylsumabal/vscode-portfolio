@@ -13,12 +13,8 @@ const AboutPage = () => {
           <div>
             <h2 className="text-2xl font-semibold">About Me:</h2>
             <p className="leading-7">
-              As a Web Developer, I possess an impressive arsenal of skills I
-              excel in designing and maintaining responsive websites that offer
-              a smooth user experience. I am also a team player who thrives in
-              collaborating with cross-functional teams to produce outstanding
-              web applications.
-            </p>
+              
+I’m a problem-solving web developer who enjoys turning ideas into functional and meaningful digital experiences. I focus on building systems that are not only usable but also efficient and well-structured. I approach challenges with curiosity and persistence, and I value collaboration as a way to create better solutions.            </p>
           </div>
 </div>        
 
