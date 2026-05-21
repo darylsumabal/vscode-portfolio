@@ -7,6 +7,7 @@ import ProjectPage from "../page/ProjectPage";
 import SkillPage from "../page/SkillPage";
 import SettingPage from "../page/SettingPage";
 import NotFoundPage from "../page/NotFoundPage";
+import GithubPage from "../page/GithubPage";
 
 export const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
       {
         path: "/setting",
         element: <SettingPage />,
+      },
+      {
+        path: "/github",
+        element: <GithubPage />,
       },
     ],
   },
