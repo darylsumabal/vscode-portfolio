@@ -26,7 +26,7 @@ const AboutPage = () => {
       <div className="flex items-center justify-center w-full">
         <Image
           loading="lazy"
-          path="portfolio/home_image.png"
+          path="portfolio/daryl_portrait.png"
           alt="Profile.png"
           width={96}
           height={96}
