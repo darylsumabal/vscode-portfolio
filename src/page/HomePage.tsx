@@ -33,6 +33,9 @@ const HomePages = () => {
               <button className="border-2 text-white border-secondary p-3.5 font-medium lg:text-2xl ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105">
                 <Link to={"/contact"}>Contact Me</Link>
               </button>
+              <button className="border-2 text-white border-secondary p-3.5 font-medium lg:text-2xl ease-in duration-100 hover:shadow-lg hover:shadow-secondary/45 hover:scale-105">
+                <Link to={"/contact"}>Resume</Link>
+              </button>
             </div>
           </div>
         </div>
